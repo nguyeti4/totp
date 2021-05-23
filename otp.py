@@ -4,8 +4,8 @@ import pyotp
 import sys
 from pyqrcode import QRCode
 
-#if python otp.py generate-otp
-if str(sys.argv[1]) == 'generate-otp':
+#if python otp.py generate-qr
+if str(sys.argv[1]) == 'generate-qr':
 
     #creates random secret key
     #key = pyotp.random_base32()
