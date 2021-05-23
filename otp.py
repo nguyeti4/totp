@@ -24,8 +24,8 @@ if str(sys.argv[1]) == 'generate-qr':
 if str(sys.argv[1]) == 'generate-otp':
 
     #Generate otp
-    #totp = = pyotp.TOTP(key)
-    totp = = pyotp.TOTP('JBSWY3DPEHPK3PXP')
+    #totp = pyotp.TOTP(key)
+    totp = pyotp.TOTP('JBSWY3DPEHPK3PXP')
 
     #print to screen the current totp
     print("Current OTP:",totp.now())
