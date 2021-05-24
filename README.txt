@@ -7,9 +7,17 @@ $ pip3 install --upgrade pip
 # You know if the virtual env. is activate when you see (venv) appear before the name of the host server
 
 2. Download the necessary libraries while Virtual Environment is activate:
+
+#install each package manually one by one
 $ pip install pytop
 $ pip install pyqrcode
 $ pip install pypng 
+
+OR
+
+#install all packages specified in requirements.txt
+$ pip install -r requirements.txt
+
 
 3. Generate the QR Code
 
