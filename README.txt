@@ -9,7 +9,7 @@ $ pip3 install --upgrade pip
 2. Download the necessary libraries while Virtual Environment is activate:
 
 #install each package manually one by one
-$ pip install pytop
+$ pip install pyotp
 $ pip install pyqrcode
 $ pip install pypng 
 

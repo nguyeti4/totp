@@ -1,4 +1,4 @@
-#Reference url: https://github.com/pyauth/pytop <- descrives how to generaten totp using libraries 
+#Reference url: https://github.com/pyauth/pyotp <- descrives how to generaten totp using libraries 
 #Reference url: https://www.geeksforgeeks.org.python-generate-qr-code-using-pyqrcode-module/ <- how to generate qr
 
 import pyqrcode
